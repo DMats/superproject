@@ -11,3 +11,8 @@ git branch -M main
 git remote add origin git@github.com:DMats/superproject.git
 git push -u origin main
 ```
+3. Add submodule:
+```console
+git submodule add git@github.com:DMats/submodule.git
+```
+
