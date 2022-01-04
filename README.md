@@ -15,4 +15,8 @@ git push -u origin main
 ```console
 git submodule add git@github.com:DMats/submodule.git
 ```
-
+4. Initialize and update submodules:
+```console
+# `--init` flag only required once in freshly cloned repo
+git submodule update --init
+```
